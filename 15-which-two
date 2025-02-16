@@ -1,22 +1,3 @@
 public String whichTwo(Integer a, Integer b, Integer c) {
-    //code here
-    if(a>b && a>c){
-        if(b>c){
-        //a is biggest
-        if(a==(b+c){
-            return 'a';
-        }
-        }
-        //b is biggest
-        if(b==(a+c)){
-            return 'b';
-        }
-    }
-    //c is biggest
-    if(c==(b+a)){
-        return 'c';
-    }
-    else{
-        return '';
-    }
+    
 }
