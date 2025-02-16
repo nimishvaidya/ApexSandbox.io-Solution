@@ -13,7 +13,7 @@ public String whichTwo(Integer a, Integer b, Integer c) {
         }
     }
     //c is biggest
-    else if(c==(b+a)){
+    if(c==(b+a)){
         return c;
     }
     else{
