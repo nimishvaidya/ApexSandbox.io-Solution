@@ -4,17 +4,17 @@ public String whichTwo(Integer a, Integer b, Integer c) {
         if(b>c){
         //a is biggest
         if(a==(b+c){
-            return a;
+            return 'a';
         }
         }
         //b is biggest
         if(b==(a+c)){
-            return b;
+            return 'b';
         }
     }
     //c is biggest
     if(c==(b+a)){
-        return c;
+        return 'c';
     }
     else{
         return '';
