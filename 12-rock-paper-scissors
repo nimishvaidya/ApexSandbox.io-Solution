@@ -7,7 +7,7 @@ public Integer rockPaperScissors(String player1, String player2) {
     else{
     switch on player1{
         when 'rock'{
-            if(player2 == 'scissor'){
+            if(player2 == 'scissors'){
                 result = 1;
             }
             else{
@@ -22,7 +22,7 @@ public Integer rockPaperScissors(String player1, String player2) {
                 result = 2;
             }
         }
-        when 'scissor'{
+        when 'scissors'{
             if(player2 == 'paper'){
                 result = 1;
             }
