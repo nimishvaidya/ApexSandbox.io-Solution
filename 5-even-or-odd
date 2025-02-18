@@ -2,6 +2,6 @@ public String evenOrOdd(Integer num) {
     //code here
     if(Math.mod(num) == 0){
         return 'even';
-    }
-    return 'odd';
+    }else{
+    return 'odd';}
 }
