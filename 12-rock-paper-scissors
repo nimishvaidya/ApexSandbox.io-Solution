@@ -1,0 +1,33 @@
+public Integer rockPaperScissors(String player1, String player2) {
+    //code here
+    Integer result;
+    if(player1 == player2){
+        return 0;
+    }
+    switch on player1{
+        when 'rock'{
+            if(player2 == 'scissor'){
+                return 1;
+            }
+            else{
+                return 2;
+            }
+        }
+        when 'paper'{
+            if(player2 == 'rock'){
+                return 1;
+            }
+            else{
+                return 2;
+            }
+        }
+        when 'scissor'{
+            if(player2 == 'paper'){
+                return 1;
+            }
+            else{
+                return 2;
+            }
+        }
+    }
+}
