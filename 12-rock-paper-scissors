@@ -8,29 +8,29 @@ public Integer rockPaperScissors(String player1, String player2) {
     switch on player1{
         when 'rock'{
             if(player2 == 'scissor'){
-                return 1;
+                result = 1;
             }
             else{
-                return 2;
+                result = 2;
             }
         }
         when 'paper'{
             if(player2 == 'rock'){
-                return 1;
+                result = 1;
             }
             else{
-                return 2;
+                result = 2;
             }
         }
         when 'scissor'{
             if(player2 == 'paper'){
-                return 1;
+                result = 1;
             }
             else{
-                return 2;
+                result = 2;
             }
         }
     }
     }
-    return;
+    return result;
 }
