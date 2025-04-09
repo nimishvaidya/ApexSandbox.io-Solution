@@ -1,10 +1,10 @@
 public Boolean companionPlants(String plant1, String plant2) {
     //code here
         if(plant1 = 'lettuce' AND plant2=='cucumbers'){
-            return true;
+            return 'true';
         }
         else{
-            return false;
+            return 'false';
         }
         /*if(plant1 == "lettuce" AND plant2=="onions"){
             return true;
