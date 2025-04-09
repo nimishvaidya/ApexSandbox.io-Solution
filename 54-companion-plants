@@ -1,4 +1,7 @@
 public Boolean companionPlants(String plant1, String plant2) {
     //code here
-    return true;
+    if(plant1 == 'lettuce'){
+        return true;
+    }
+    return false;
 }
