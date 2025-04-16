@@ -5,6 +5,6 @@ public String registerStudent(String name, String phone, String email) {
     s.apxio__Phone__c = phone;
     s.apxio__Email__c = email;
     insert s;
-    String sa = [Select apxio__Registration_Number__c from apxio__Student__c];
+    apxio__Registration_Number__c sa = [Select apxio__Registration_Number__c from apxio__Student__c];
     return sa;
 }
