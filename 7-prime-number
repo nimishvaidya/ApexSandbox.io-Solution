@@ -1,0 +1,9 @@
+public Boolean isPrime(Integer num) {
+    //code here
+    while(num>1){
+        if(num%2 == 0){
+            return false;
+        }
+    }
+    return true;
+}
